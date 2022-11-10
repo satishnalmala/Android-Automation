@@ -22,7 +22,7 @@ import java.awt.*;
 
 //import io.appium.java_client.android.AndroidDriver.pressKey;
 
-public class Job_Details_causeofloss {
+public class Job_Details_CauseofLoss {
 	static AndroidDriver driver;
 
 	@BeforeTest
@@ -52,7 +52,7 @@ public class Job_Details_causeofloss {
 		cf.Login();
 		cf.myWait(10000);
 
-		driver.findElement(By.id("com.dki.dki:id/et_search_view")).sendKeys("2210DK015");
+		driver.findElement(By.id("com.dki.dki:id/et_search_view")).sendKeys("2211DK003");
 		cf.myWait(2000);
 		driver.findElement(By.id("com.dki.dki:id/btn_search_all_jobs")).click();
 		cf.myWait(2000);
@@ -60,7 +60,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		driver.findElement(By.id("com.dki.dki:id/btn_confirm")).click();
 		cf.myWait(20000);
-		driver.findElement(By.id("com.dki.dki:id/et_search_view")).sendKeys("2210DK015");
+		driver.findElement(By.id("com.dki.dki:id/et_search_view")).sendKeys("2211DK003");
 		cf.myWait(4000);
 
 		driver.findElement(By.id("com.dki.dki:id/tv_job_id")).click();
@@ -111,7 +111,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -121,7 +121,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
@@ -177,7 +177,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -187,7 +187,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
@@ -243,7 +243,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -253,7 +253,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
@@ -312,7 +312,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -322,7 +322,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
@@ -380,7 +380,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -390,7 +390,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
@@ -448,7 +448,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked level");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected level");
@@ -458,7 +458,7 @@ public class Job_Details_causeofloss {
 		cf.myWait(2000);
 		System.out.println("clicked room");
 		
-		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]"))
+		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]"))
 		.click();
 		cf.myWait(2000);
 		System.out.println("selected room");
